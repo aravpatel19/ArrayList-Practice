@@ -33,4 +33,9 @@ public class ArrayListRespitoryPractice{
 				System.out.println(a.get(i));
 		}
 	}
+	public class removeDuplicates(ArrayList<Integer> a){
+
+		for(int i=0;i<a.size();i++){
+			if(
+	}
 }

@@ -12,6 +12,7 @@ public class ArrayListRespitoryPractice{
 			b.add(i);
 
 		System.out.println(newList(a, b));
+		printList(newList(a, b));
 	}
 	public static ArrayList<Integer> newList(ArrayList<Integer> a, ArrayList<Integer> b){
 
@@ -23,5 +24,13 @@ public class ArrayListRespitoryPractice{
 		for(int i=0;i<b.size();i++)
 			newList.add(b.get(i));
 		return newList;
+	}
+	public static void printList(ArrayList<Integer> a){
+		for(int i=0;i<a.size();i++){
+			if(i != a.size()-1)
+				System.out.print(a.get(i)+", ");
+			else
+				System.out.println(a.get(i));
+		}
 	}
 }
